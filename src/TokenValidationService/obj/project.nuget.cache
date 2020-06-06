@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oFI2Pgmv04lZaMrUH8JFSghlAeRuEuuyL/oE8c/FD3NtlHlScKNo2pwdIA0WE4A0mOTbycQAgJpnhBagXPW1og==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\masstransit-demo-51x7qdqy6hg7\\src\\TokenValidationService\\TokenValidationService.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ffimnsr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

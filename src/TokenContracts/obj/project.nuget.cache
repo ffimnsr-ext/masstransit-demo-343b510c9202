@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "YMeQuN2TO/jNfyuWxNdCuqZcsM6anfXabOKHVMN2Qg9dJvZyL9rPt7VsTDzXGfWduB38PVyu6tW+q7EZbHWODg==",
+  "success": true,
+  "projectFilePath": "D:\\Projects\\masstransit-demo-51x7qdqy6hg7\\src\\TokenContracts\\TokenContracts.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

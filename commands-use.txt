@@ -1,0 +1,15 @@
+dotnet new sln --name TokenServices
+
+mkdir src; cd src
+
+dotnet new web --name TokenGatewayApi
+dotnet new web --name TokenValidationService
+dotnet new classlib --name TokenContracts
+
+dotnet sln ..\TokenServices.sln add .\TokenContracts\TokenContracts.csproj
+dotnet sln ..\TokenServices.sln add .\TokenGatewayApi\TokenGatewayApi.csproj
+dotnet sln ..\TokenServices.sln add .\TokenValidationService\TokenValidationService.csproj
+
+dotnet add package MassTransit.AspNetCore
+dotnet add package MassTransit.RabbitMQ
+dotnet add reference ..\TokenContracts\TokenContracts.csproj
