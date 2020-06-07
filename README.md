@@ -1,4 +1,4 @@
-# Microservices Event Bus Communcation Using MassTransit
+# Microservices Event Bus Communication Using MassTransit
 
 This repo contains demo project that implements MassTransit to communicate through Event Bus. Please check this article to know more:
 
