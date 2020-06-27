@@ -29,7 +29,7 @@ namespace TokenValidationService
             services.TryAddSingleton(KebabCaseEndpointNameFormatter.Instance);
             services.AddMassTransit(config =>
             {
-                config.AddRequestClient<SubmitTokenConsumer>();                
+                config.AddConsumer<SubmitTokenConsumer>();                
                 config.AddBus(context => Bus.Factory.CreateUsingRabbitMq(c => 
                 {
                     c.UseHealthCheck(context);
